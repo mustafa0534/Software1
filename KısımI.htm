@@ -1,0 +1,217 @@
+<!DOCTYPE HTML PUBLIC "-//W3C/DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>HTML- Ýlk Örnekler </title>
+<meta name="keywords" content=“Html, dersler" />
+</head>
+<body>
+
+<a id="Basadön" href="index.htm" title="Ana Sayfa">
+<img src="resimler/yaprak.gif" style="float: left ; margin:5px; border: none; height:55px" width="113" height="81" /></a>
+<h1 style ="margin:0" > Sirkeci WEB Hizmetleri </h1>
+<h3><i> 2000 yýlýndan bu yana hizmetinizdeyiz </i></h3>
+<hr style="color: green; background-color: green; height: 3px; clear: left" />
+<p style="margin:0px">
+<a href="B101.htm" title="HTML'ye Giriþ"> Ýlk Örnekler </a> &nbsp;
+<a href="B102.htm" title="Metinlerin Biçimlendirilmesi"> Biçimlendirme </a> &nbsp;
+<a href="B103.htm" title="Sýralý ve Sýrasýz Liste Oluþturma"> Listeler </a> &nbsp;
+<a href="B104.htm" title="Köprü Oluþturma Belge ve Diðer Sayfalara"> Köprüler </a> &nbsp;
+<a href="index.htm" > Ana Sayfa </a> 
+</p> 
+<hr style="color: green; background-color: green; height: 3px; clear: left" />
+<pre style =" font-family:Arial; font-size:larger">
+<ul style="margin-left:70px" >
+    <li><a href="#Htmlnedir">html-xhtml </a> </li>
+    <li><a href="#Komutyazýmý">Komut Yazýmý</a> </li>
+    <li><a href="#Parametreyazýmý">Parametre Yazýmý</a></li>
+	<li><a href="#Yapýsý">Html Yapýsý</a></li>
+	<li><a href="#Nasýl">Nasýl Çalýþýr</a></li>
+</ul> 
+
+
+
+<a id="Htmlnedir"></a> 
+
+<p style="color:red"><b><h2>HTML-XHTML Nedir ? </h2></b></p> 
+            Hyper text           MArkup              Language 
+            <i style="color:blue">Zengin Metin      Ýþaretleme         Dili </i> 
+
+    HTML (Hypertext MArkup Language), World Wide WEb'ib temel programlama dili olarak ortaya çýkmýþtýr.
+Propgramlama Dili ifadesi sizi ürkütmesin...(Ýþaretleme Dili'de diyebiliriz.) Sadece birkaç dakikada Not Defteri 
+gibi sýradan bir metin editörü ile bir WEB sayfasý oluþturabilirsiniz.    
+
+    XHTML ismi EXtensibile HyperText Markup Language (Geniþletilebilir Zengin MEtin Ýþaretleme Dili) kelimelerinin 
+kýsaltýlmasýndan gelmektedir. Aslýnda HTML komut ve parametrelerinin standardize edilmiþ halidir. XHTML, HTML'e 
+göre daha kesin ve belirli kurallarý vardýr.XHTML'in amacý, webde yazýlmýþ kötü HTML kod yazýmýnýn önlenmesi ve bir 
+HTML yazým standardýnýn oluþturulmasýdýr.
+
+    Basit editörlerin düz metni nasýl ekileyici bir þekle çevirdiðini, tablolarýn ve köprülerin nasýl 
+oluþturulduðunu göreceksiniz.
+
+    Dönem sonunda resimler gezinti çubuklarý, köprüler ses ve video klipler içeren WEB sayfalarýnýn nasýl 
+oluþturulduðu öðrenmiþ olaracaksýnýz
+
+
+
+
+
+
+
+
+
+
+
+
+
+<i style="font-size:smaller; float:right"> <a href="#Basadön" ;>Baþa Dön</a> </i>
+
+
+<a id="Komutyazýmý"></a> 
+<p style="color:red"><b><h2>   Komutlarýn Yazýmý </h2></b></p> 
+    XHTML, HTML üzerine oluþturulmuþ bir standarttýr ve komutlar HTML komutlarýyla aynýdýr. Ancak HTML'de serbestçe 
+yazýlan kodlar üzerinde bir takým kýsýtlamalar ve kurallar getirilmiþtir.
+    Ýlk kural tüm komutlarýn KÜÇÜK HARFLE yazýlmasýdýr. HTML'de komutlarýn büyük veya küçük harfle yazýlmasý fark 
+etmemektedir. Bazý HTML editörleri büyük harfle, bazýlarý ise küçük harfle yazmaktadýr.         
+                Kural 1: Komutlar küçük harfle yazýlacak.  
+                        XHTML'e uygun: &lt head &gt, &lt font &gt, &lt p &gt, &lt body &gt
+                        XHTML'e uygun deðil: &lt HEAD &gt, &lt Font &gt, &lt P &gt, &lt BoDy &gt
+
+    HTML de olduðu gibi, komutlar baþlangýç ve bitiþ kodlarý ile yazýlmaktadýr. Baþlangýç ve bitiþ kodlarý < ve > 
+iþaretleri arasýna yazýlýr. Bitiþ kodlarýnda < iþaretinden sonra / iþareti de yazýlmaktadýr. Ancak HTML'de her zaman 
+bitiþ kodunu yazmamýz þart deðildir. Örneðin sadece &lt p &gt kodunu bitiþ kodu olan &lt /p &gt kodu yazýlmadanda çalýþýr; 
+hata mesajý vermez. (Ýþleyiþte tek baþýna &lt p &gt kodunu kullanmakla dokümanýn bir satýr boþluðu býrakýlmasý saðlanýr.
+    HTML'de bazý kodlarýn bitiþinin kullanýlmamasýnda hiç sakýnca yoktur. Örneðin &lt li &gt komutunu birçok HTML editörü 
+&lt /li &gt bitiþ kodu olmadan kullanmaktadýr ve sonuç deðiþmemektedir. Ancak XHTML'de bitiþ kodu kullanýlmasý þarttýr.
+    Bazý komutlarda ise bitiþ kodu doðal olarak yoktur. Çünkü baþlangýç ve bitiþ kodlarýnýn arasýna bir kod veya metin 
+yazýlmasý söz konusu deðildir. Örneðin &lt br &gt, &lt hr &gt, &lt img &gt komutlarý &lt br &gt ...&lt /br &gt þeklinde 
+baþlangýç ve bitiþ komutlarýyla yazýlamamaktadýr. Sadece baþlangýç komutu çalýþan bu tarz komutlar ise XHTML'deki 
+standardý bozmamasý için deðiþtirilmiþtir. XHTML'de bu komutlar baþlangýç ve bitiþ kodlarý birleþtirilmiþtir.
+                Kural 2: Komutlar bitiþ kodlarýyla yazýlacak.
+                        XHTML'e uygun: &lt li &gt...&lt /li &gt, &lt img / &gt, &lt br / &gt
+                        XHTML'e uygun deðil: &lt li &gt..., &lt img &gt, &lt br &gt
+
+    HTML komutlarýnýn baþlangýç ve bitiþ kodlarý arasýnda baþka HTML komutlarý olabilir ve bu komutlarýn kodlarý arasýnda 
+da baþka komutlar olabilir. XHTML'de bu durum geçerlidir. Ancak HTML'de bir komutun baþlangýç kodu baþka bir HTML komutun 
+içinde, bitiþ kodu ise dýþýnda olabilmektedir. XHTML'de ise baþlangýç kodu bir baþka komutun kodlarý arasýnda ise, bitiþ 
+kodu da arasýnda olmalýdýr. Yani komutlar iç içe olmalýdýr. Bir kýsmý içinde, bir kýsmý dýþýnda olmasý XHTML açýsýndan 
+uygun deðildir.
+                Kural 3: Komutlar iç içe yazýlacak.
+                        XHTML'e uygun: &lt b &gt&lt u &gt...&lt /u &gt&lt /b &gt
+                        XHTML'e uygun deðil: &lt b &gt&lt u &gt...&lt /b &gt&lt /u &gt
+<i style="font-size:smaller; float:right"> <a href="#Basadön" ;>Baþa Dön</a> </i>
+<a id="Parametreyazýmý"></a> 
+<p style="color:red"><b><h2>   Parametrelerin Yazýmý </h2></b></p> 
+    XHTML'in komutlar üzerine olduðu gibi parametreler üzerinde de kýsýt ve kurallarý vardýr. HTML'de birçok þekilde 
+yazýlabilen parametre ve deðerleri XHTML'de standarda baðlanmýþtýr.
+
+    Parametreler de, týpký komutlarda olduðu gibi küçük harflerle yazýlýrlar.
+
+        Kural 1: Parametreler küçük harflerle yazýlýr.
+        
+                XHTML'e uygun: &lt a href="..." &gt, &lt p align="…" &gt, &lt font color="…" &gt
+                XHTML'e uygun deðil: &lt A HREF="…" &gt, &lt P Align="…" &gt, &lt font cOlor="…" &gt
+
+    HTML'de parametrelere verilen deðer doðrudan yazýlabileceði gibi týrnak arasýna da alýnabilir. XHTML'de ise 
+tüm parametre deðerleri " iþareti arasýna yazýlýr.
+
+        Kural 2: Parametrelere verilen deðerler týrnak arasýnda yazýlýr.
+        
+                XHTML'e uygun: &lt table width="50%" &gt, &lt p align="right" &gt, &lt font color="blue" &gt
+                XHTML'e uygun deðil: &lt table width=50% &gt, &lt p align=right &gt, &lt font color=blue &gt
+
+    HTML'de bazý parametreler yazýlmadan, sadece komutun içine deðer yazýlabiliyor. Örneðin &lt input readonly &gt komutunda 
+readonly deðeri ile metin kutusundaki yazýyý deðiþtirilemez yapýyorduk. XHTML'de ise parametre yazýlmadan yapýlan bu 
+tarz kýsaltmalar kullanýlmaz. Onun yerine &lt input readonly="readonly" &gt þeklinde yazýlmaktadýr.
+
+        Kural 3: Parametreler yazýlmadan, kýsaca deðerler yazýlamaz.
+        
+                XHTML'e uygun: &lt dl compact="compact" &gt, &lt option selected="selected" &gt, &lt frame noresize="noresize" &gt
+                XHTML'e uygun deðil: &lt dl compact &gt, &lt option selected &gt, &lt frame noresize &gt
+
+
+
+
+
+<i style="font-size:smaller; float:right"> <a href="#Basadön" ;>Baþa Dön</a> </i>
+
+
+
+<a id="Yapýsý"></a> 
+
+<p style="color:red"><b><h2>   HTML Yapýsý ? </h2></b></p> 
+
+                     
+                            &lt HTML &gt
+                            &lt HEAD &gt
+                            .
+                            &lt /HEAD &gt
+                            &lt BODY &gt
+                            .
+                            .
+                            .
+                            &lt /BODY &gt
+
+                            &lt /HTML &gt
+                              
+<b>
+---
+&lt HTML &gt ve &lt /HTML &gt :kodun baþlangýç ve bitiþini belirler.
+&lt HEAD &gt ve &lt /HEAD &gt :Belge hakkýnda görüntülenmeyen bilgiler ve sayfanýn baþýlýnýn belirtildiði yer
+&lt body &gt ve &lt /body &gt :kodun WEB sayfasýnda görüntülenecek bölümleri belirler.
+
+</b>
+
+
+
+
+
+
+
+
+<i style="font-size:smaller; float:right"> <a href="#Basadön" ;>Baþa Dön</a> </i>
+
+
+
+
+<a id="Nasýl"></a> 
+<p style="color:red"><b><h2>   Nasýl Çalýþýr ? </h2></b></p> 
+    HTML içesisindeki kodlar <i> etiketler </i> (< ve > iþaretleri) arasýnda yer alýr. Bu etiketler hazýrlanan sayfanýn nasýl 
+ görüntüleneceðini belirlemek için kullanýlan komutlardýr. 
+ 
+    Örnek Bir kelimenin Koyu (kalýn) yazýlmasý gerekiyor ise 
+
+&lt b &gt Merhaba &lt /b &gt Arkadaþlar
+
+    Bazý etiketler buradaki bigi çift taraflý kullanýlmak zorundadýr. Bazýlarýnda ise tek taraflý kullaným yeterlidir.
+ Bunlarý yeri geldikçe göreceðiz.
+
+
+<center>
+<a href="Ana/Kýsým I/B101-01.htm" target="_blank">Örnek1 </a>   &nbsp;&nbsp;  <a href="Ana/Kýsým I/B101-01.DOC" target="_blank">Word Belgesi </a>     
+</center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<i style="font-size:smaller; float:right"> <a href="#Basadön" ;>Baþa Dön</a> </i>
+</pre>
+<hr style="color: green; background-color: green; height: 3px; clear: left" />
+<p style="margin:0px">
+<a href="B101.htm" title="HTML'ye Giriþ"> Ýlk Örnekler </a> &nbsp;
+<a href="B102.htm" title="Metinlerin Biçimlendirilmesi"> Biçimlendirme </a> &nbsp;
+<a href="B103.htm" title="Sýralý ve Sýrasýz Liste Oluþturma"> Listeler </a> &nbsp;
+<a href="B104.htm" title="Köprü Oluþturma Belge ve Diðer Sayfalara"> Köprüler </a> &nbsp;
+<a href="index.htm" > Ana Sayfa </a> 
+</p> 
+<hr style="color: green; background-color: green; height: 3px; clear: left" />
+</body>
+</html>
